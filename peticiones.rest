@@ -1,0 +1,25 @@
+GET http://localhost:3000/api/posts
+###
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "titulo": "prueba1",
+    "descripcion": "p@gm.com",
+    "fecha": "2019-5-4",
+    "categoria": "miedo",
+    "clave": "1"
+}
+###
+GET http://localhost:3000/api/autores
+###
+POST http://localhost:3000/api/autores
+Content-Type: application/json
+
+{
+    "nombre": "prueba1",
+    "email": "p@gm.com",
+    "imagen": "oki"
+}
+###
+GET http://localhost:3000/api/autores/1
